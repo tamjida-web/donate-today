@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.orange{
+
+    color:white;
+}
+.donate-now-btn{
+    background-image:linear-gradient(rgb(248, 7, 7), rgb(252, 78, 47));
+    width: 40px;
+    padding: 10px 10px 10px 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    
+}
+.first-section{
+    display: flex;
+    background-image: url(images/images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    
+    
+    
+}
+.text-center{
+    font-weight: bolder;
+    align-items: center;
+}
