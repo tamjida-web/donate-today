@@ -42,12 +42,44 @@ body{
     background-size: cover;
     background-position: center;  
 }
+.taka-amount{
+  
+    display: flex;
+        margin-bottom: 200px;
+        padding-top: 200px;
+       
+        
+              
+}
+.one-hundred-tk{
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 22px;
+    background-color: rgb(241, 242, 243);
+    color: gray;
+    margin-right: 2%;
+    
+}
+.box-clr{ 
+    border: 2px solid red ;
+     margin-top: 1px; 
+     margin-left: 2%; 
+     margin-right: 2%;
+      border-radius: 5px; 
+      height: 170;
+       width: 170px;
+        background-color:rgb(248, 205, 205); }
+
 
 .second-section{
     text-align: center;
     width: 100%;
     position: absolute;
     margin-bottom:120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .second-section h1{
     color:black;
@@ -60,6 +92,7 @@ body{
 }
 .hori{
     width: 55%;
+    size: 100px;
     color: white;
 }
 .other-amount{
@@ -68,21 +101,18 @@ body{
     position: absolute;
     font-size: 20px;
     color: rgb(184, 182, 182);
-
 }
 
 footer{
 
     background-color: rgb(0, 0, 17);
     height: 160px;
-    margin: 0%;
-    padding-bottom: 0%;
+    
 }
 footer h1{
     text-align: center;
     color: rgb(163, 36, 57);
     font-family:cursive;
-    
 }
 footer p{
     text-align: center;
