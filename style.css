@@ -14,6 +14,7 @@ body{
     text-decoration: none;
     line-height: 80px;
     font-size: 22px;
+    border-color: blue;
     
 }
 
@@ -47,11 +48,16 @@ body{
     display: flex;
         margin-bottom: 200px;
         padding-top: 200px;
-       
+        margin-left: 20%;
         
+       
+        text-align:center;
+        text-decoration: none;
               
 }
 .one-hundred-tk{
+   
+        
     text-align: center;
     padding: 0px 25px 0px 25px;
     border-radius: 6px;
@@ -61,17 +67,23 @@ body{
     background-color: rgb(241, 242, 243);
     color: gray;
     margin-right: 2%;
+   
     
 }
 .box-clr{ 
     border: 2px solid red ;
      margin-top: 1px; 
-     margin-left: 2%; 
-     margin-right: 2%;
+    text-align: center;
+    color: red;
+    font-size: 22px;
       border-radius: 5px; 
       height: 170;
        width: 170px;
-        background-color:rgb(248, 205, 205); }
+        background-color:rgb(248, 205, 205);
+        margin-right: 2%;
+        
+     }
+        
 
 
 .second-section{
@@ -101,12 +113,15 @@ body{
     position: absolute;
     font-size: 20px;
     color: rgb(184, 182, 182);
+    
+    
 }
 
 footer{
 
     background-color: rgb(0, 0, 17);
     height: 160px;
+    padding-top: 30%;
     
 }
 footer h1{
@@ -120,3 +135,8 @@ footer p{
     color: white;
     font-family: monospace;
 }
+
+
+
+
+
