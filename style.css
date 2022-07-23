@@ -92,6 +92,9 @@ body{
     position: absolute;
     margin-bottom:120px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    
+    
 }
 .second-section h1{
     color:black;
@@ -105,23 +108,23 @@ body{
 .hori{
     width: 55%;
     size: 100px;
-    color: white;
+    color: rgb(153, 25, 25);
 }
 .other-amount{
-    text-align: center;
-    width: 100%;
-    position: absolute;
+    margin-top: -160px;
+    text-align: center; 
     font-size: 20px;
     color: rgb(184, 182, 182);
-    
-    
+  height: 43vh; 
 }
 
 footer{
 
     background-color: rgb(0, 0, 17);
     height: 160px;
-    padding-top: 30%;
+    padding-top: 1%;
+  
+    
     
 }
 footer h1{
